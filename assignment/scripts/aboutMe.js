@@ -59,7 +59,7 @@ adventurous = true;
 if(adventurous) {
     console.log("Adventures are great!");
 } else {
-    console.log("How about we stay home?")
+    console.log("How about we stay home?");
 };
 
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
