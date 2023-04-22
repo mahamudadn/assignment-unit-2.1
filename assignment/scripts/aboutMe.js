@@ -15,7 +15,7 @@ let fullName = ( firstName + ' ' + lastName );
 
 // 4 - Console log the value of `fullName`
 
-console.log('My full name' ,fullName );
+console.log('My full name:' ,fullName );
 
 // 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 
@@ -105,7 +105,6 @@ if (pets > friendsPets) {
   console.log('Most pets are ' , mostPets);
 
 
-
 // 17 - Write a *switch* statement that logs:
 //      "First is the worst" if your lucky number is 1
 //      "Second is the best" if your lucky number is 2
@@ -115,6 +114,7 @@ if (pets > friendsPets) {
 
 let randomNumber = Math.floor(Math.random() * 4);
     luckyNumber = 3;
+
     switch (randomNumber) {
     case 1:
     console.log('First is the worst')
@@ -135,14 +135,5 @@ let randomNumber = Math.floor(Math.random() * 4);
 
 adventurous ? console.log('Adventures are great!') 
 : console.log('How about we stay home?');
-
-let age = 21;
-const minAge = 21;
-
-if(age >= minAge) {
-  console.log('no entry');
-} else {
-  console.log('enter');
-}
 
 
