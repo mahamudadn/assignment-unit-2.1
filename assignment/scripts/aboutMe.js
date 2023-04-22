@@ -10,7 +10,7 @@ let lastName = 'Aden';
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 // (remember, you already have variables for this, can you use those?)
 
-let fullName = ( firstName  +  lastName );
+let fullName = ( firstName + ' ' + lastName );
 
 
 // 4 - Console log the value of `fullName`
@@ -29,7 +29,7 @@ console.log('My Name is:' ,  fullName ,  'and i think' , + luckyNumber ,  'is a 
 
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 
-let  adventurous = true;
+let  adventurous = false;
 
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
 
@@ -58,7 +58,7 @@ adventurous = true;
 
 if(adventurous) {
     console.log("Adventures are great!");
-} else if (adventurous = false) {
+} else {
     console.log("How about we stay home?")
 };
 
